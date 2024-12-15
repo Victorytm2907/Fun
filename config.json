@@ -1,6 +1,9 @@
 {
   "name": "Pomelo",
   "identifier": "com.victorytm.Pomelo-sources",
+  "featuredApps": [
+        "com.stossy11.Pomelo"
+    ],
   "apps": [
     {
       "name": "Pomelo",
