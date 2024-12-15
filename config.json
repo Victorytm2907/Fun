@@ -28,7 +28,11 @@
           {
             "name": "dynamic-codesigning"
           }
-        ]
+        ],
+		"privacy": {
+			"Debuggable": "App uses JIT compilation to speed up emulation.",
+			"Increase Memory Limit": "App requires more RAM usage."
+		}
       }
     }
   ]
