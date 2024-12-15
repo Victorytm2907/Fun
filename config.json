@@ -1,0 +1,41 @@
+{
+	"repo": {
+		"name": "Pomelo-Emu",
+		"subtitle": "NX emu for iOS",
+		"website": "https://pomelo-emu.github.io",
+		"featuredApps": [
+			"com.stossy11.pomelo-emu"
+		]
+	},
+	"apps": [{
+			"name": "Pomelo",
+			"bundleIdentifier": "com.stossy11.pomelo-emu",
+			"filename": "Pomelo.ipa",
+			"githubOwner": "Stossy11",
+			"githubRepository": "pomelo.github.io",
+			"skipPrerelease": true,
+			"developerName": "stossy11",
+			"subtitle": "NX emulator on iOS",
+			"localizedDescription": "A NX emulator on iOS",
+			"iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV9XTf0fBe_Sgcq-XYQQw5SDGFR2OUGVkemdudvoUe9CGa9cujlfFVuOiTnSRqr1hu_jI&usqp=CAU",
+			"downloadURL": "https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7/Pomelo.ipa",
+			"version": "v2.7.1",
+			"tintColor": "#1a2cc2",
+			"minOSVersion": "15.0",
+			"appPermissions": {
+				"entitlements": [{
+						"name": "get-task-allow"
+					},
+					{
+						"name": "com.apple.developer.kernel.increased-memory-limit"
+					},
+					{
+						"name": "com.apple.developer.kernel.extended-virtual-addressing"
+					},
+					{
+						"name": "dynamic-codesigning"
+					}
+				]
+			}
+		}]
+	}
