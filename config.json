@@ -5,9 +5,6 @@
     {
       "name": "Pomelo",
       "bundleIdentifier": "com.stossy11.Pomelo",
-      "filename": "Pomelo.ipa",
-      "githubOwner": "Stossy11",
-      "githubRepository": "https://gitlab.com/pomelo-emu/Pomelo",
       "skipPrerelease": true,
       "developerName": "stossy11",
       "subtitle": "NX emulator on iOS",
