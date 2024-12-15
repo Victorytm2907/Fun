@@ -2,17 +2,15 @@
 	"repo": {
 		"name": "Pomelo-Emu",
 		"subtitle": "NX emu for iOS",
-		"website": "https://pomelo-emu.github.io",
 		"featuredApps": [
 			"com.stossy11.pomelo-emu"
 		]
 	},
 	"apps": [{
 			"name": "Pomelo",
-			"bundleIdentifier": "com.stossy11.pomelo-emu",
-			"filename": "Pomelo.ipa",
+			"bundleIdentifier": "com.stossy11.Pomelo",
 			"githubOwner": "Stossy11",
-			"githubRepository": "pomelo.github.io",
+			"githubRepository": "https://gitlab.com/pomelo-emu/Pomelo",
 			"skipPrerelease": true,
 			"developerName": "stossy11",
 			"subtitle": "NX emulator on iOS",
