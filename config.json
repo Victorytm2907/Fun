@@ -20,22 +20,12 @@
       "minOSVersion": "15.0",
       "appPermissions": {
         "entitlements": [
-          {
-            "name": "get-task-allow"
-          },
-          {
-            "name": "com.apple.developer.kernel.increased-memory-limit"
-          },
-          {
-            "name": "com.apple.developer.kernel.extended-virtual-addressing"
-          },
-          {
-            "name": "dynamic-codesigning"
-          }
+           "get-task-allow",
+		   "com.apple.developer.kernel.increased-memory-limit",
+		   "com.apple.developer.kernel.extended-virtual-addressing",
+		   "dynamic-codesigning"
         ],
 		"privacy": {
-			"Debuggable": "App uses JIT compilation to speed up emulation.",
-			"Increase Memory Limit": "App requires more RAM usage."
 		}
       }
     }
